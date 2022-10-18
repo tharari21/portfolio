@@ -72,24 +72,21 @@ const Sidebar = () => {
         </ul>
         <div className="sidebar__bottom">
           <div className="sidebar__contact">
-            <p>
-              tharari93gmail.com{" "}
-              <a
-                style={{ paddingLeft: "10px" }}
-                href="https://mail.google.com/mail/u/0/?fs=1&to=tharari93@gmail.com&tf=cm"
-              >
-                <AiOutlineMail size={15} />
-              </a>
-            </p>
+            <a
+              style={{ color: "blue" }}
+              href="https://mail.google.com/mail/u/0/?fs=1&to=tharari93@gmail.com&tf=cm"
+            >
+              tharari93gmail.com <AiOutlineMail size={15} />
+            </a>
             <p>(917)-974-5453</p>
           </div>
           <div className="sidebar__social-icons">
-            <div>
+            <div className="social-icon">
               <a href="http://www.instagram.com/tomerharari1">
                 <FaInstagram size={25} />
               </a>
             </div>
-            <div>
+            <div className="social-icon">
               <a href="http://www.github.com/tharari21">
                 <FaGithub size={25} />
               </a>
